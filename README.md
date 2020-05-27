@@ -18,3 +18,10 @@ For semi-supervised learning: If you only have a few labels, you could perform c
 For search engines: For example, some search engines let you search for images that are similar to a reference image. To build such a system, you would first apply a clustering algorithm to all the images in your database: similar images would end up in the same cluster. Then when a user provides a reference image, all you need to do is to find this image’s cluster using the trained clustering model, and you can then simply return all the images from this cluster.
 
 To segment an image: By clustering pixels according to their color, then replacing each pixel’s color with the mean color of its cluster, it is possible to reduce the number of different colors in the image considerably. This technique is used in many object detection and tracking systems, as it makes it easier to detect the contour of each object.
+
+#### K-Means Clustering
+![K-means(1)](https://user-images.githubusercontent.com/33252532/83060983-e3b50600-a079-11ea-89b0-b68cb4c08df3.png)
+
+#### DBSCAN
+![point_def](https://user-images.githubusercontent.com/33252532/83061035-f7606c80-a079-11ea-822e-596727365835.PNG)
+
